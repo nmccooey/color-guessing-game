@@ -1,0 +1,72 @@
+body {
+    background-color: #232323;
+}
+
+.jumbotron{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0rem;
+    background-color: rgb(70, 110, 185);
+    color: white;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.jumbotron h1 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+
+.rgb-value {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Comic Neue', cursive;
+}
+
+.game-options {
+    background-color: rgb(236, 232, 232);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.game-options button {
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.game-options button:hover {
+    background-color: rgb(240, 133, 133);
+}
+
+#game-status {
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.square-container {
+    margin: 20px auto 0px auto;
+    max-width: 600px;
+}
+
+.square {
+    background-color: teal;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 10%;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width: 995px) {
+    .jumbotron h1 {
+        font-size: 3.0rem;
+    }
+}
